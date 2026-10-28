@@ -27,9 +27,9 @@ The simulation confirms the theoretical convergence rate of \(O(1/\sqrt{N})\). T
 **2. Variance Reduction (at \(N=100,000\))**
 | Method | Price | Standard Error (SE) | Speedup (Variance Reduction) |
 | :--- | :--- | :--- | :--- |
-| Plain Monte Carlo | ~10.45 | `SE_plain` | 1.0x |
-| Antithetic Variates | ~10.45 | `SE_anti` | ~1.8x |
-| Control Variates | ~10.45 | `SE_cv` | ~3.5x |
+| Plain Monte Carlo | ~10.45 | SE = 0.04677 | 1.0x |
+| Antithetic Variates | ~10.45 | SE = 0.03308 | ~1.8x |
+| Control Variates | ~10.45 | SE = 0.01788 | ~3.5x |
 
 *(Note: Replace the placeholder values with your exact numbers from the notebook)*
 
