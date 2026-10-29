@@ -20,10 +20,10 @@ This project implements a Monte Carlo pricing engine for European options under 
 
 ### Results
 **1. Convergence (Log-Log Scale)**
-The simulation confirms the theoretical convergence rate of \(O(1/\sqrt{N})\). The error decreases by a factor of ~3.16 when the number of paths increases by 10.
-*(You can insert your graph here later)*
-<!-- ![Convergence Plot](results/convergence.png) -->
+The simulation confirms the theoretical convergence rate of \(O(1\sqrt{N})\). The error decreases by a factor of ~3.16 when the number of paths increases by 10.
 
+
+123 
 **2. Variance Reduction (at \(N=100,000\))**
 | Method | Price | Standard Error (SE) | Speedup (Variance Reduction) |
 | :--- | :--- | :--- | :--- |
