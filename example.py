@@ -2,7 +2,7 @@ from src.black_scholes import bs_call
 from src.mc_pricer import mc_european_call
 from src.variance_reduction import mc_call_control_variate
 
-# Параметры для акции Apple (выдуманные)
+# Параметры для акции Apple 
 S0 = 180.0   # Текущая цена
 K = 185.0    # Страйк (цена исполнения)
 T = 0.5      # Полгода до экспирации (0.5 лет)
