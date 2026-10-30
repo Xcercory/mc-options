@@ -1,10 +1,10 @@
 # Monte Carlo Option Pricing & Variance Reduction
-[🇬🇧 English](#english) 
+[English](#english) 
 
 ---
 
 <a name="english"></a>
-## 🇬🇧 English
+## English
 
 ### Overview
 This project implements a Monte Carlo pricing engine for European options under the Geometric Brownian Motion (GBM) model. It validates the numerical results against the analytical Black-Scholes formula and explores variance reduction techniques to improve simulation efficiency.
