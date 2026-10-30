@@ -23,13 +23,13 @@ This project implements a Monte Carlo pricing engine for European options under 
 The simulation confirms the theoretical convergence rate of \(O(1\sqrt{N})\). The error decreases by a factor of ~3.16 when the number of paths increases by 10.
 
 
-123 
 **2. Variance Reduction (at \(N=100,000\))**
 | Method | Price | Standard Error (SE) | Speedup (Variance Reduction) |
 | :--- | :--- | :--- | :--- |
 | Plain Monte Carlo | ~10.45 | SE = 0.04677 | 1.0x |
 | Antithetic Variates | ~10.45 | SE = 0.03308 | ~1.8x |
 | Control Variates | ~10.45 | SE = 0.01788 | ~3.5x |
+
 
 
 
@@ -43,11 +43,6 @@ mc-options/
 ├── notebooks/
 │   └── research.ipynb         # Experiments and visualizations
 └── tests/                     # Pytest validation suite
-How to Run
-Install dependencies: pip install -r requirements.txt
-
-Run tests: pytest -v
-
 How to Run
 Install dependencies: pip install -r requirements.txt
 
